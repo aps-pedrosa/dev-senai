@@ -22,6 +22,32 @@ void formatElapsedTime(int seconds) {
     printf("\nO veiculo ficou no estacionamento por:\n %02d:%02d:%02d\n", hours, minutes, remainingSeconds);
 }
 
+void exportToCSV(VEHICLE *car, int totalVehicles, const char *filename) {
+  FILE *file = fopen(filename, "w");
+  if (file == NULL) {
+    perror("Erro ao abrir o arquivo");
+    return;
+  }
+
+  fprintf(file, "ID,Tempo (s),Preco,Estado\n");
+
+  for (int i = 0; i < totalVehicles; i++) {
+    if (car[i].elapsed == 0) {
+      time(&car[i].out);
+      car[i].elapsed = difftime(car[i].out, car[i].in);
+    }
+    fprintf(file, "%d,%d,%.2f,%s\n",
+            car[i].id,
+            car[i].elapsed,
+            car[i].price,
+            car[i].state ? "Estacionado" : "Saiu"
+            );
+  }
+
+  fclose(file);
+  printf("\nRelatório exportado para '%s'\n", filename);
+}
+
 int main() {
   int opNew, opId, tmp;
   int i = 0;
@@ -33,7 +59,7 @@ int main() {
   car = (VEHICLE*)calloc(numID, sizeof(VEHICLE));
 
   do {
-    printf("\n[1] In\n[2] Out\n[3] Quit\n");
+    printf("\n[1] Estacionar veiculo\n[2] Retirar veiculo\n[3] Relatorio de veiculos\n[4] Quit\n");
     scanf("%d", &opNew);
 
     switch (opNew) {
@@ -88,14 +114,20 @@ int main() {
         }
       exit_switch:
         break;
+
       case 3:
+        exportToCSV(car, numID, "relatorio.csv");
+        break;
+
+      case 4:
         printf("\nExiting...\n");
         break;
+
       default:
         printf("\n!=Invalid!=\n");
     }
 
-  } while(opNew != 3);
+  } while(opNew != 4);
 
   return 0;
 }
