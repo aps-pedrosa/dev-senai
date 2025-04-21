@@ -16,11 +16,11 @@ typedef struct {
 
 // Funcao auxilixar para formatar tempo de estacionamento
 void formatElapsedTime(int seconds) {
-    int hours = (int)seconds / 3600;
-    int minutes = ((int)seconds % 3600) / 60;
-    int remainingSeconds = (int)seconds % 60;
-    
-    printf("\nO veiculo ficou no estacionamento por:\n %02d:%02d:%02d\n", hours, minutes, remainingSeconds);
+  int hours = (int)seconds / 3600;
+  int minutes = ((int)seconds % 3600) / 60;
+  int remainingSeconds = (int)seconds % 60;
+
+  printf("\nO veiculo ficou no estacionamento por:\n %02d:%02d:%02d\n", hours, minutes, remainingSeconds);
 }
 
 // Funcao auxiliar para exportar banco de dados dos veiculos para uma planilha
