@@ -1,7 +1,5 @@
 ID,Tempo (s),Preco,Estado
-0,26,0.00,Estacionado
-1,8,0.08,Saiu
-2,6,0.06,Saiu
-3,5,0.05,Saiu
-4,13,0.00,Estacionado
-5,6,0.00,Estacionado
+0,10,0.00,Estacionado
+1,10,0.00,Estacionado
+2,4,0.04,Saiu
+3,1,0.00,Estacionado

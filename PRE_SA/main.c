@@ -64,7 +64,7 @@ int main() {
 
   // Loop do programa
   do {
-    printf("\n[1] Estacionar veiculo\n[2] Retirar veiculo\n[3] Relatorio de veiculos\n[4] Quit\n");
+    printf("\n[1] Estacionar veiculo\n[2] Retirar veiculo\n[3] Relatorio de veiculos\n[4] Sair\n");
     scanf("%d", &opNew);
 
     // Menus
