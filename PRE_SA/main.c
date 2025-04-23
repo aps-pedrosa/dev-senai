@@ -1,3 +1,15 @@
+/*
+Algoritmo: Gerenciamento Estacionamento
+Código:
+  Arthur Pedrosa
+  Caio Rodrigues De Castro
+  João Felipe Lopes santos
+  Nikolas Lemos Zimbra
+  Rafael Rezende
+Turma: HT-SIS-01-T-25-12971
+Data: 22/04/2025
+*/
+
 #include <stdio.h>
 #include <time.h>
 #include <stdbool.h>
