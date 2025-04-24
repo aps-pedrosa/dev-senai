@@ -15,7 +15,7 @@ Data: 22/04/2025
 #include <stdbool.h>
 #include <stdlib.h>
 
-#define MAX 3
+#define MAX 10
 
 // Declaracao da estrutura
 typedef struct {
