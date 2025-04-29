@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "ex1.c"
+#include "ex2.c"
 
 int main() {
 
-  funcMult();
+  funcDiv();
 
   return 0;
 }
