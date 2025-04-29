@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 void funcDiv() {
-  int n1;
-  int n2;
-  int div;
+  float n1;
+  float n2;
+  float div;
 
   printf("Digite um numero: ");
   scanf("%d", &n1);
@@ -13,7 +13,7 @@ void funcDiv() {
 
   div = n1 / n2;
 
-  printf("O resultado da divisao e igual a %d\n", div);
+  printf("O resultado da divisao e igual a %.2f\n", div);
   } else {
     printf("Uma divisao por 0 nao e possivel.\nExemplo de divisao valida: \"5/2\" \n");
   }

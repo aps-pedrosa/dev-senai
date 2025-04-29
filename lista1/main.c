@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "ex1.c"
 #include "ex2.c"
+#include "ex4.c"
 
 int main() {
 
-  funcDiv();
+  funcAvg();
 
   return 0;
 }
