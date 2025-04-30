@@ -5,9 +5,11 @@
 #include "ex4.c"
 #include "ex5.c"
 #include "ex6.c"
+// #include "ex8.c"
+#include "ex11.c"
 
 int main() {
-  aumentoSalario();
+  verificarPar();
 
   return 0;
 }

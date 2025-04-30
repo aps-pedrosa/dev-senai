@@ -5,16 +5,15 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int numero;
-
 void verificarPar() {
+  int numero;
 
-    printf("Forneça o número: ");
-    scanf("%d", &numero);
-    if (numero % 2 == 0) {
-        printf("o número %d é par\n", numero);
-    }
-    else  {
-        printf("O número %d é impar\n", numero);
-    }
+  printf("Forneça o número: ");
+  scanf("%d", &numero);
+  if (numero % 2 == 0) {
+    printf("o número %d é par\n", numero);
+  }
+  else  {
+    printf("O número %d é impar\n", numero);
+  }
 }
