@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-void funcIdade() {
+void funcAge() {
     time_t ltime;
     struct tm *newtime;
     int anoDeNascimento;
@@ -24,10 +24,4 @@ void funcIdade() {
     printf("Ano: %d\n", ano);
     printf("Idade Atual: %d\n", idadeAtual);
     printf("Idade em 2050: %d\n", idadeEm2050);
-}
-
-
-int main() {
-    funcIdade();
-    return 0;
 }

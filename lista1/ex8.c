@@ -3,24 +3,23 @@
 #include <math.h>
 
 void funcPow() {
-  int n1;
-  int n2;
-  int po;
+  float n1;
+  float n2;
 
-  printf("Digite um numero:\n");
-  scanf("%d", &n1);
+  printf("Digite um numero: ");
+  scanf("%f", &n1);
   if (n1 == 0) {
     printf("O numero nao pode ser 0\n");
-    exit(0);
+    // exit(0);
   }
-  printf("Digite outro numero:\n");
-  scanf("%d", &n2);
+  printf("Digite outro numero: ");
+  scanf("%f", &n2);
   if (n2 == 0) {
     printf("O numero nao pode ser 0\n");
-    exit(0);
+    // exit(0);
   }
 
-  po = pow(n1, n2);
+  float power = pow(n1, n2);
 
-  printf("A potencia equivale a %d\n", po);
+  printf("A potencia equivale a %.2f\n", power);
 }
