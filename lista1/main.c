@@ -22,9 +22,12 @@
 #include "ex30.c"
 #include "ex32.c"
 #include "ex34.c"
+#include "ex36.c"
+#include "ex38.c"
+#include "ex40.c"
 
 int main() {
-  // TODO: ex34.c
+  funcNum2();
 
   return 0;
 }
