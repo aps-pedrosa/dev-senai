@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ativdade2"/>
+        <attribute name="authors" value="ocaua"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-18 08:22:49 "/>
+        <attribute name="created" value="b2NhdWE7REVTS1RPUC1KSEMyVkpPOzIwMjUtMDMtMTg7IjA4OjIwOjAzICI7Mjc5NQ=="/>
+        <attribute name="edited" value="b2NhdWE7REVTS1RPUC1KSEMyVkpPOzIwMjUtMDMtMTg7IjA4OjIyOjQ5ICI7MTsyOTE1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor" type="Integer" array="False" size=""/>
+            <output expression="&quot;Por favor forne&#231;a um valor.&quot;" newline="True"/>
+            <input variable="valor"/>
+            <declare name="valor2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Por favor forne&#231;a um segundo valor.&quot;" newline="True"/>
+            <input variable="valor2"/>
+            <declare name="resultado" type="Integer" array="False" size=""/>
+            <assign variable="resultado" expression="valor / valor2"/>
+        </body>
+    </function>
+</flowgorithm>
