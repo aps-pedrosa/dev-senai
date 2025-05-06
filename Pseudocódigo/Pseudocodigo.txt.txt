@@ -1,0 +1,13 @@
+INICIO
+    ESCREVA "Por favor, forneça um valor:"
+    LEIA valor
+    ESCREVA "Por favor, forneça um Segundo valor:"
+    LEIA valor2
+
+    SE valor = 0 OU valor2 = 0 ENTAO
+        ESCREVA "Valor deve ser acima de 0!"
+    SENAO
+        valorfinal ← valor / valor2
+        ESCREVA valorfinal
+    FIMSE
+FIM

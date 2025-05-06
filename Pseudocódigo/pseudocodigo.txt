@@ -1,0 +1,10 @@
+INICIO
+    ESCREVA "Por favor, forneça um valor:"
+    LEIA valor
+    ESCREVA "Por favor, forneça um Segundo valor:"
+    LEIA valor2
+    
+    valorfinal ← valor * valor2
+
+    ESCREVA valorfinal
+FIM
