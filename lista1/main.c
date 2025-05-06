@@ -25,9 +25,10 @@
 #include "ex36.c"
 #include "ex38.c"
 #include "ex40.c"
+#include "ex41.c"
 
 int main() {
-  funcNum2();
+  funcSoma100();
 
   return 0;
 }
