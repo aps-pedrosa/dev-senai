@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-void verificarPar() {
+void ex11() {
   int numero;
 
   printf("Forneça o número: ");

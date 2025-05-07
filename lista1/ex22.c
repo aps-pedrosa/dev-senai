@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void verificarSinal() {
+void ex22() {
     float numero;
 
     printf("Digite um número: ");

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void funcSum() {
+void ex3() {
     float n1;
     float n2;
     float n3;

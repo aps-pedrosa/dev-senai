@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void funcOrdemDecrescente() {
+void ex31() {
     int numeros[3];
 
 

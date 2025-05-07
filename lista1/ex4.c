@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void funcAvg() {
+void ex4() {
   float num[3];
   float sum = 0;
   float avg;

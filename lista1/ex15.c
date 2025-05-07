@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void funcCalcularMediaAluno() {
+void ex15() {
 
     char aluno;
     int nota1;

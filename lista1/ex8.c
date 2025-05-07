@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-void funcPow() {
+void ex8() {
   float n1;
   float n2;
 

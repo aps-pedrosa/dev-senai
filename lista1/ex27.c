@@ -1,6 +1,6 @@
-a#include <stdio.h>
+#include <stdio.h>
 
-void funcDivisibilidade() {
+void ex27() {
     int numero;
 
     printf("Digite um número: ");
@@ -16,8 +16,3 @@ void funcDivisibilidade() {
         printf("O número não é divisível por 10, 5 ou 2.\n");
     }
 }
-
-// int main() {
-//     funcDivisibilidade();
-//     return 0;
-// }

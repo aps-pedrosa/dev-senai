@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void funcGas() {
+void ex12() {
   float gas;
   float distance;
 

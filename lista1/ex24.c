@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-void funcResultadoSoma() {
+void ex24() {
     float n1;
     float n2;
     float soma;

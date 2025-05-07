@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void aumentoSalario() {
+void ex5() {
   float salario;
 
   printf("Qual é o salário do funcionário em R$: ");

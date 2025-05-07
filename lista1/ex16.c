@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void imprimirTercaParte() {
+void ex16() {
     float numero, tercaParte;
 
     printf("Digite um número real: ");

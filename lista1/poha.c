@@ -226,9 +226,6 @@ int main() {
                 printf("\n\n   Saindo do programa...\n\n");
                 break;
             } else {
-                // Desabilita o modo raw para permitir input normal nas funções
-                disableRawMode(&original);
-                
                 // Chamadas diretas às funções dos arquivos incluídos
                 switch (selected) {
                     case 0: ex1(); break;
@@ -273,14 +270,6 @@ int main() {
                     case 39: ex40(); break;
                     case 40: ex41(); break;
                 }
-                getchar();
-                
-                // Adiciona uma pausa para o usuário ver o resultado
-                printf("\nPressione Enter para voltar ao menu...");
-                getchar();
-                
-                // Reabilita o modo raw para o menu
-                enableRawMode(&original);
             }
         }
     }

@@ -2,7 +2,7 @@
 
 
 
-void funcNumeroDivisivel() {
+void ex26() {
 
     int numero;
 

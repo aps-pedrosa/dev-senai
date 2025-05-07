@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void natacao() {
+void ex32() {
   int age;
 
   printf("Digite a idade do nadador: ");

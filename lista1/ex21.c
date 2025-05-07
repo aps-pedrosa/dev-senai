@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void funcNumeroMaiorQue20() {
+void ex21() {
     int numeroMaior;
 
     printf("Digite um numero: ");

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>  // Para M_PI, pow()
 
-void calcularCirculo() {
+void ex20() {
     float raio, perimetro, area;
 
     printf("Digite o raio do círculo: ");

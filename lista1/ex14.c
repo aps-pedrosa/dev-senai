@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Função que avalia o aluno e imprime os resultados
-void avaliarAluno() {
+void ex14() {
     char nome[100];
     float nota1, nota2, nota3, media;
     char *status;

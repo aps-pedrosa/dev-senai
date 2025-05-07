@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void funcVendedor()
+void ex13()
 {
     char nome[50];
     float salario;

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-void funcAge() {
+void ex9() {
     time_t ltime;
     struct tm *newtime;
     int anoDeNascimento;

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void funcSomaComCondicao() {
+void ex25() {
     int num1, num2, soma, resultado;
 
     printf("Digite o primeiro número: ");

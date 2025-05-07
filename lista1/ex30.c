@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void funcMaior() {
+void ex30() {
   float tmp;
   float maior = 0;
 

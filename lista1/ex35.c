@@ -2,7 +2,7 @@
 #include <math.h>
 
 
-void funcPow() {
+void ex35() {
     float num[5];
 
     printf("Digite um número: ");
@@ -14,8 +14,4 @@ void funcPow() {
         printf("O quadrado de %.2f é %.2f\n", num[i], pow(num[i], 2));
     }
 
-}
-
-int main() {
-    funcPow();
 }

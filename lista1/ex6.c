@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void funcArea() {
+void ex6() {
   float b;
   float h;
   float area;

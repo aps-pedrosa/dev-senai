@@ -9,7 +9,7 @@ void stringUpper(char *str) {
     }
 }
 
-void funcEstadoOrigem() {
+void ex29() {
     char estado[3]; // 2 letras + \0
 
     printf("Digite a sigla do seu estado (ex: RJ, SP, MG): ");
@@ -27,8 +27,3 @@ void funcEstadoOrigem() {
         printf("Outros estados\n");
     }
 }
-
-// int main() {
-//     funcEstadoOrigem();
-//     return 0;
-// }

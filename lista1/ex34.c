@@ -2,7 +2,7 @@
 
 #define LEN 100
 
-void biblioteca() {
+void ex34() {
   char livro [LEN];
   int opt;
 

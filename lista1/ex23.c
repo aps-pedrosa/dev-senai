@@ -11,7 +11,7 @@ void stringLower(char *str) {
     }
 }
 
-void funcCapitalDoBrasil() {
+void ex23() {
     char resposta[100];
 
     printf("Qual é a capital do Brasil: ");

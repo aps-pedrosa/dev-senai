@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void funcCalcularLogaritmo() {
+void ex17() {
     float numero;
     int base;
 

@@ -1,10 +1,6 @@
-#include <stdio.h> 
+#include <stdio.h>
 
-
-
-
-
-void funcRaizes() {
+void ex33() {
 
 float a, b, c, delta, x1, x2;
 
@@ -12,10 +8,5 @@ float a, b, c, delta, x1, x2;
     scanf("%f", &a);
 
     printf("Digite o valor de B: ");
-    scanf("")
-}
-
-int main() {
-    funcRaizes();
-    return 0;
+    scanf("");
 }

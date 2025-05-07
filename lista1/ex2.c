@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void funcDiv() {
+void ex2() {
   float n1;
   float n2;
   float div;

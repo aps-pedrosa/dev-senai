@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void funcWeight() {
+void ex10() {
   float weight;
   float more;
   float less;

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void funcMult() {
+void ex1() {
   float n1;
   float n2;
   float mult;

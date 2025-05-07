@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h> 
 
-void exibirInformacoesNumero() {
+void ex18() {
     float numero, quadrado, raiz;
 
     printf("Digite um número: ");

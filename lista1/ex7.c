@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void funcCadastrar() {
+void ex7() {
     char nome[100];
     int idade;
 
